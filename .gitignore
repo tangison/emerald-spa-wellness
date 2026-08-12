@@ -5,3 +5,4 @@ dist
 audit/shots
 audit/report.json
 *.log
+.env*

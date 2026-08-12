@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 import { ArrowUpRight, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import Picture from './Picture';
 import { fadeDown, fadeUp, headingReveal, resolveVariants } from '../lib/motion';
 import business from '../data/business.json';
 
@@ -56,18 +57,19 @@ export default function Hero() {
       style={{ fontFamily: "'Inter Variable', Inter, sans-serif" }}
     >
       {reduced ? (
-        <img
-          src="/media/serenity-garden-1280.avif"
+        <Picture
+          slug="serenity-garden"
           alt="The garden retreat at Emerald Spa and Wellness Centre in Windhoek West"
-          width={1280}
-          height={720}
-          className="absolute inset-0 h-full w-full object-cover"
+          priority
+          className="absolute inset-0 h-full w-full"
+          imgClassName="h-full w-full object-cover"
+          sizes="100vw"
         />
       ) : (
         <video
           className="absolute inset-0 h-full w-full object-cover"
           src={VIDEO_SRC}
-          poster="/media/serenity-garden-1280.jpg"
+          poster="/media/hero-poster.jpg"
           autoPlay
           loop
           muted
