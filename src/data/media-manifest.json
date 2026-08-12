@@ -1,0 +1,482 @@
+[
+ {
+  "slug": "candlescape",
+  "width": 1280,
+  "height": 720,
+  "sources": {
+   "avif": [
+    {
+     "w": 640,
+     "path": "/media/candlescape-640.avif",
+     "bytes": 10556
+    },
+    {
+     "w": 960,
+     "path": "/media/candlescape-960.avif",
+     "bytes": 23656
+    },
+    {
+     "w": 1280,
+     "path": "/media/candlescape-1280.avif",
+     "bytes": 35937
+    }
+   ],
+   "webp": [
+    {
+     "w": 640,
+     "path": "/media/candlescape-640.webp",
+     "bytes": 12520
+    },
+    {
+     "w": 960,
+     "path": "/media/candlescape-960.webp",
+     "bytes": 23606
+    },
+    {
+     "w": 1280,
+     "path": "/media/candlescape-1280.webp",
+     "bytes": 35522
+    }
+   ]
+  },
+  "fallback": {
+   "path": "/media/candlescape-1280.jpg",
+   "bytes": 91152
+  }
+ },
+ {
+  "slug": "green-escape",
+  "width": 1280,
+  "height": 720,
+  "sources": {
+   "avif": [
+    {
+     "w": 640,
+     "path": "/media/green-escape-640.avif",
+     "bytes": 10950
+    },
+    {
+     "w": 960,
+     "path": "/media/green-escape-960.avif",
+     "bytes": 19427
+    },
+    {
+     "w": 1280,
+     "path": "/media/green-escape-1280.avif",
+     "bytes": 27637
+    }
+   ],
+   "webp": [
+    {
+     "w": 640,
+     "path": "/media/green-escape-640.webp",
+     "bytes": 13816
+    },
+    {
+     "w": 960,
+     "path": "/media/green-escape-960.webp",
+     "bytes": 22452
+    },
+    {
+     "w": 1280,
+     "path": "/media/green-escape-1280.webp",
+     "bytes": 31054
+    }
+   ]
+  },
+  "fallback": {
+   "path": "/media/green-escape-1280.jpg",
+   "bytes": 70584
+  }
+ },
+ {
+  "slug": "reception",
+  "width": 1280,
+  "height": 720,
+  "sources": {
+   "avif": [
+    {
+     "w": 640,
+     "path": "/media/reception-640.avif",
+     "bytes": 10908
+    },
+    {
+     "w": 960,
+     "path": "/media/reception-960.avif",
+     "bytes": 20913
+    },
+    {
+     "w": 1280,
+     "path": "/media/reception-1280.avif",
+     "bytes": 35011
+    }
+   ],
+   "webp": [
+    {
+     "w": 640,
+     "path": "/media/reception-640.webp",
+     "bytes": 15776
+    },
+    {
+     "w": 960,
+     "path": "/media/reception-960.webp",
+     "bytes": 28966
+    },
+    {
+     "w": 1280,
+     "path": "/media/reception-1280.webp",
+     "bytes": 48448
+    }
+   ]
+  },
+  "fallback": {
+   "path": "/media/reception-1280.jpg",
+   "bytes": 87624
+  }
+ },
+ {
+  "slug": "serenity-garden",
+  "width": 1280,
+  "height": 720,
+  "sources": {
+   "avif": [
+    {
+     "w": 640,
+     "path": "/media/serenity-garden-640.avif",
+     "bytes": 48244
+    },
+    {
+     "w": 960,
+     "path": "/media/serenity-garden-960.avif",
+     "bytes": 105071
+    },
+    {
+     "w": 1280,
+     "path": "/media/serenity-garden-1280.avif",
+     "bytes": 170091
+    }
+   ],
+   "webp": [
+    {
+     "w": 640,
+     "path": "/media/serenity-garden-640.webp",
+     "bytes": 85850
+    },
+    {
+     "w": 960,
+     "path": "/media/serenity-garden-960.webp",
+     "bytes": 185716
+    },
+    {
+     "w": 1280,
+     "path": "/media/serenity-garden-1280.webp",
+     "bytes": 302370
+    }
+   ]
+  },
+  "fallback": {
+   "path": "/media/serenity-garden-1280.jpg",
+   "bytes": 325550
+  }
+ },
+ {
+  "slug": "spa-retreat",
+  "width": 1280,
+  "height": 720,
+  "sources": {
+   "avif": [
+    {
+     "w": 640,
+     "path": "/media/spa-retreat-640.avif",
+     "bytes": 13083
+    },
+    {
+     "w": 960,
+     "path": "/media/spa-retreat-960.avif",
+     "bytes": 24345
+    },
+    {
+     "w": 1280,
+     "path": "/media/spa-retreat-1280.avif",
+     "bytes": 37730
+    }
+   ],
+   "webp": [
+    {
+     "w": 640,
+     "path": "/media/spa-retreat-640.webp",
+     "bytes": 18194
+    },
+    {
+     "w": 960,
+     "path": "/media/spa-retreat-960.webp",
+     "bytes": 32302
+    },
+    {
+     "w": 1280,
+     "path": "/media/spa-retreat-1280.webp",
+     "bytes": 47012
+    }
+   ]
+  },
+  "fallback": {
+   "path": "/media/spa-retreat-1280.jpg",
+   "bytes": 91580
+  }
+ },
+ {
+  "slug": "treatment-room",
+  "width": 1280,
+  "height": 720,
+  "sources": {
+   "avif": [
+    {
+     "w": 640,
+     "path": "/media/treatment-room-640.avif",
+     "bytes": 12260
+    },
+    {
+     "w": 960,
+     "path": "/media/treatment-room-960.avif",
+     "bytes": 25253
+    },
+    {
+     "w": 1280,
+     "path": "/media/treatment-room-1280.avif",
+     "bytes": 46094
+    }
+   ],
+   "webp": [
+    {
+     "w": 640,
+     "path": "/media/treatment-room-640.webp",
+     "bytes": 16504
+    },
+    {
+     "w": 960,
+     "path": "/media/treatment-room-960.webp",
+     "bytes": 33284
+    },
+    {
+     "w": 1280,
+     "path": "/media/treatment-room-1280.webp",
+     "bytes": 61936
+    }
+   ]
+  },
+  "fallback": {
+   "path": "/media/treatment-room-1280.jpg",
+   "bytes": 98849
+  }
+ },
+ {
+  "slug": "team-daivienn",
+  "width": 340,
+  "height": 340,
+  "sources": {
+   "avif": [
+    {
+     "w": 170,
+     "path": "/media/team/team-daivienn-170.avif",
+     "bytes": 2806
+    },
+    {
+     "w": 340,
+     "path": "/media/team/team-daivienn-340.avif",
+     "bytes": 7186
+    }
+   ],
+   "webp": [
+    {
+     "w": 170,
+     "path": "/media/team/team-daivienn-170.webp",
+     "bytes": 3704
+    },
+    {
+     "w": 340,
+     "path": "/media/team/team-daivienn-340.webp",
+     "bytes": 8428
+    }
+   ]
+  },
+  "fallback": {
+   "path": "/media/team/team-daivienn-340.jpg",
+   "bytes": 13667
+  }
+ },
+ {
+  "slug": "team-diana",
+  "width": 340,
+  "height": 340,
+  "sources": {
+   "avif": [
+    {
+     "w": 170,
+     "path": "/media/team/team-diana-170.avif",
+     "bytes": 4346
+    },
+    {
+     "w": 340,
+     "path": "/media/team/team-diana-340.avif",
+     "bytes": 12308
+    }
+   ],
+   "webp": [
+    {
+     "w": 170,
+     "path": "/media/team/team-diana-170.webp",
+     "bytes": 6194
+    },
+    {
+     "w": 340,
+     "path": "/media/team/team-diana-340.webp",
+     "bytes": 16024
+    }
+   ]
+  },
+  "fallback": {
+   "path": "/media/team/team-diana-340.jpg",
+   "bytes": 21146
+  }
+ },
+ {
+  "slug": "team-emerald-spa",
+  "width": 340,
+  "height": 340,
+  "sources": {
+   "avif": [
+    {
+     "w": 170,
+     "path": "/media/team/team-emerald-spa-170.avif",
+     "bytes": 2436
+    },
+    {
+     "w": 340,
+     "path": "/media/team/team-emerald-spa-340.avif",
+     "bytes": 5633
+    }
+   ],
+   "webp": [
+    {
+     "w": 170,
+     "path": "/media/team/team-emerald-spa-170.webp",
+     "bytes": 3084
+    },
+    {
+     "w": 340,
+     "path": "/media/team/team-emerald-spa-340.webp",
+     "bytes": 7154
+    }
+   ]
+  },
+  "fallback": {
+   "path": "/media/team/team-emerald-spa-340.jpg",
+   "bytes": 11018
+  }
+ },
+ {
+  "slug": "team-laurensia",
+  "width": 340,
+  "height": 340,
+  "sources": {
+   "avif": [
+    {
+     "w": 170,
+     "path": "/media/team/team-laurensia-170.avif",
+     "bytes": 3834
+    },
+    {
+     "w": 340,
+     "path": "/media/team/team-laurensia-340.avif",
+     "bytes": 9789
+    }
+   ],
+   "webp": [
+    {
+     "w": 170,
+     "path": "/media/team/team-laurensia-170.webp",
+     "bytes": 5190
+    },
+    {
+     "w": 340,
+     "path": "/media/team/team-laurensia-340.webp",
+     "bytes": 12072
+    }
+   ]
+  },
+  "fallback": {
+   "path": "/media/team/team-laurensia-340.jpg",
+   "bytes": 17357
+  }
+ },
+ {
+  "slug": "team-merie-ann-lulu",
+  "width": 340,
+  "height": 340,
+  "sources": {
+   "avif": [
+    {
+     "w": 170,
+     "path": "/media/team/team-merie-ann-lulu-170.avif",
+     "bytes": 3129
+    },
+    {
+     "w": 340,
+     "path": "/media/team/team-merie-ann-lulu-340.avif",
+     "bytes": 7903
+    }
+   ],
+   "webp": [
+    {
+     "w": 170,
+     "path": "/media/team/team-merie-ann-lulu-170.webp",
+     "bytes": 3832
+    },
+    {
+     "w": 340,
+     "path": "/media/team/team-merie-ann-lulu-340.webp",
+     "bytes": 9080
+    }
+   ]
+  },
+  "fallback": {
+   "path": "/media/team/team-merie-ann-lulu-340.jpg",
+   "bytes": 14599
+  }
+ },
+ {
+  "slug": "team-shanice-khadijah",
+  "width": 340,
+  "height": 340,
+  "sources": {
+   "avif": [
+    {
+     "w": 170,
+     "path": "/media/team/team-shanice-khadijah-170.avif",
+     "bytes": 3957
+    },
+    {
+     "w": 340,
+     "path": "/media/team/team-shanice-khadijah-340.avif",
+     "bytes": 9927
+    }
+   ],
+   "webp": [
+    {
+     "w": 170,
+     "path": "/media/team/team-shanice-khadijah-170.webp",
+     "bytes": 5862
+    },
+    {
+     "w": 340,
+     "path": "/media/team/team-shanice-khadijah-340.webp",
+     "bytes": 13832
+    }
+   ]
+  },
+  "fallback": {
+   "path": "/media/team/team-shanice-khadijah-340.jpg",
+   "bytes": 18865
+  }
+ }
+]

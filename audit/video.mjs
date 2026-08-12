@@ -1,0 +1,13 @@
+import { chromium } from 'playwright';
+const b=await chromium.launch();
+const p=await (await b.newContext({viewport:{width:1280,height:900}})).newPage();
+const timeline=[];
+p.on('response',r=>{ const u=r.url(); if(u.includes('cloudfront')||u.endsWith('.js')||u.endsWith('.css')) timeline.push({t:Date.now(),u:u.split('/').pop().slice(0,40),status:r.status()}); });
+const t0=Date.now();
+await p.goto('http://localhost:4173/',{waitUntil:'load'});
+console.log('load event at', Date.now()-t0,'ms');
+await p.waitForTimeout(3000);
+const v = await p.evaluate(()=>{ const el=document.querySelector('video'); return el?{preload:el.preload,autoplay:el.autoplay,muted:el.muted,loop:el.loop,playsInline:el.playsInline,paused:el.paused,readyState:el.readyState,poster:!!el.poster,w:el.videoWidth,h:el.videoHeight}:null; });
+console.log('video state:', JSON.stringify(v));
+console.log('lcp element blocking?', await p.evaluate(()=>{const e=performance.getEntriesByType('largest-contentful-paint');return e.length?e[e.length-1].element?.tagName:null}));
+await b.close();

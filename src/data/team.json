@@ -1,0 +1,38 @@
+[
+ {
+  "name": "Laurensia",
+  "slug": "laurensia",
+  "role": "Spa Therapist",
+  "rating": 4.8
+ },
+ {
+  "name": "Daivienn",
+  "slug": "daivienn",
+  "role": null,
+  "rating": 4.9
+ },
+ {
+  "name": "Diana",
+  "slug": "diana",
+  "role": "Therapist",
+  "rating": 4.9
+ },
+ {
+  "name": "Shanice Khadijah",
+  "slug": "shanice-khadijah",
+  "role": null,
+  "rating": 4.9
+ },
+ {
+  "name": "Merie-Ann (Lulu)",
+  "slug": "merie-ann-lulu",
+  "role": "Spa Manager",
+  "rating": 4.9
+ },
+ {
+  "name": "Emerald Spa",
+  "slug": "emerald-spa",
+  "role": "Hydrotherapy",
+  "rating": 4.3
+ }
+]

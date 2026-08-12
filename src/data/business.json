@@ -1,0 +1,105 @@
+{
+ "name": "Emerald Spa & Wellness Centre",
+ "shortName": "Emerald Spa",
+ "legalName": "Emerald Spa and Wellness Center",
+ "tagline": "Spa and Wellness Centre",
+ "description": "At Emerald Spa & Wellness Center, we’ve shaped a refined retreat where calm, balance, and quiet luxury set the tone. Every detail is designed to help you slow down, feel cared for, and reconnect, from serene indoor spaces to our peaceful garden escape. It’s a place to exhale, restore, and leave feeling renewed in both body and mind.",
+ "reviewSummary": "The deep tissue massage at Emerald Spa & Wellness Centre draws clients in with its therapeutic effects, often leaving them feeling completely relaxed. The serene atmosphere is complemented by attentive staff, who ensure a calming experience from the moment clients enter, often offering complimentary drinks and delicious snacks. Many rave about the rejuvenating facials and flawless Hollywood waxes, highlighting the meticulous care and professionalism of the therapists.",
+ "phone": "+264 85 607 7143",
+ "phoneHref": "+264856077143",
+ "whatsapp": "https://wa.me/264856077143",
+ "address": {
+  "street": "Blackett Street",
+  "unit": "No. 7",
+  "suburb": "Windhoek West",
+  "city": "Windhoek",
+  "region": "Khomas Region",
+  "country": "Namibia",
+  "countryCode": "NA",
+  "formatted": "Blackett Street, No. 7, Windhoek West, Windhoek, Khomas Region",
+  "lat": -22.5540581,
+  "lng": 17.0755901,
+  "directionsUrl": "https://maps.google.com/?daddr=Blackett%20Street%2C%20No.%207%2C%20Windhoek%2C%20Khomas%20Region",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Blackett%20Street%2C%20No.%207%2C%20Windhoek%2C%20Khomas%20Region"
+ },
+ "rating": 4.8,
+ "reviewsTotal": 228,
+ "ratingDistribution": {
+  "star1": 0,
+  "star2": 0,
+  "star3": 6,
+  "star4": 23,
+  "star5": 199
+ },
+ "serviceCount": 130,
+ "currency": "NAD",
+ "priceMin": 10,
+ "priceMax": 4500,
+ "features": [
+  "Kid-friendly",
+  "Parking available",
+  "Near public transport",
+  "Showers",
+  "Lockers",
+  "Bath towels",
+  "Environmentally friendly",
+  "Woman-owned",
+  "Indigenous-owned"
+ ],
+ "hours": [
+  {
+   "day": "Monday",
+   "value": "9:00 AM - 6:00 PM",
+   "closed": false
+  },
+  {
+   "day": "Tuesday",
+   "value": "9:00 AM - 6:00 PM",
+   "closed": false
+  },
+  {
+   "day": "Wednesday",
+   "value": "9:00 AM - 6:00 PM",
+   "closed": false
+  },
+  {
+   "day": "Thursday",
+   "value": "9:00 AM - 6:00 PM",
+   "closed": false
+  },
+  {
+   "day": "Friday",
+   "value": "9:00 AM - 6:00 PM",
+   "closed": false
+  },
+  {
+   "day": "Saturday",
+   "value": "9:00 AM - 6:00 PM",
+   "closed": false
+  },
+  {
+   "day": "Sunday",
+   "value": "10:00 AM - 4:00 PM",
+   "closed": false
+  }
+ ],
+ "openingHoursSpec": [
+  "Mo 09:00-18:00",
+  "Tu 09:00-18:00",
+  "We 09:00-18:00",
+  "Th 09:00-18:00",
+  "Fr 09:00-18:00",
+  "Sa 09:00-18:00",
+  "Su 10:00-16:00"
+ ],
+ "booking": {
+  "fresha": "https://www.fresha.com/a/emerald-spa-wellness-centre-windhoek-blackett-street-awio4ik8",
+  "freshaBook": "https://www.fresha.com/a/emerald-spa-wellness-centre-windhoek-blackett-street-awio4ik8/booking",
+  "freshaProfile": "https://www.fresha.com/p/emerald-spa-wellness-center-4506210"
+ },
+ "social": {
+  "instagram": "https://www.instagram.com/emerald_spa_and_wellness/",
+  "facebook": "https://www.facebook.com/p/Emerald-Spa-and-Wellness-Center-61571981360103/"
+ },
+ "sourcedFrom": "Fresha venue record awio4ik8, retrieved 2026-08-12"
+}

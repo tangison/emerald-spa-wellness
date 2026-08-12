@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Disallow: /500
+Disallow: /offline
+Disallow: /maintenance
+
+Sitemap: https://emerald-spa-wellness.vercel.app/sitemap.xml

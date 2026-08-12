@@ -1,0 +1,7 @@
+node_modules
+dist
+.vercel
+.DS_Store
+audit/shots
+audit/report.json
+*.log
