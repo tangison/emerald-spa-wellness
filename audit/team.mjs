@@ -1,0 +1,12 @@
+import { chromium } from 'playwright';
+const b=await chromium.launch();
+const p=await (await b.newContext({viewport:{width:1440,height:900}})).newPage();
+await p.goto('https://emerald-spa-wellness.vercel.app/about',{waitUntil:'networkidle'});
+await p.waitForTimeout(2000);
+await p.locator('text=Therapists you can book by name').scrollIntoViewIfNeeded();
+await p.waitForTimeout(1800);
+const imgs = await p.evaluate(()=>[...document.querySelectorAll('img')].filter(i=>i.currentSrc.includes('team')).map(i=>({src:i.currentSrc.split('/').pop(),nw:i.naturalWidth,ok:i.complete&&i.naturalWidth>0,alt:i.alt.slice(0,50)})));
+console.log('team images:', imgs.length);
+imgs.forEach(i=>console.log(' ', i.ok?'OK ':'BAD', i.src, i.nw+'px', '|', i.alt));
+await p.screenshot({path:'audit/shots/LIVE-team2.png'});
+await b.close();
